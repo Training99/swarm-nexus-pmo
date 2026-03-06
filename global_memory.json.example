@@ -1,0 +1,48 @@
+{
+  "projects": {
+    "example_project": {
+      "id": "example_project",
+      "name": "示例项目",
+      "description": "这是一个示例项目结构",
+      "created_at": "2026-03-07T00:00:00",
+      "status": "active",
+      "tasks": ["example_task_1", "example_task_2"],
+      "swarms_involved": ["opportunity_swarm", "content_swarm"]
+    }
+  },
+  "tasks": {
+    "example_task_1": {
+      "id": "example_task_1",
+      "name": "示例任务1",
+      "description": "这是一个示例任务",
+      "project_id": "example_project",
+      "source": "user",
+      "required_capabilities": ["research"],
+      "assigned_swarm": "opportunity_swarm",
+      "assigned_agent": null,
+      "status": "assigned",
+      "priority": 2,
+      "created_at": "2026-03-07T00:00:00",
+      "deadline": null,
+      "dependencies": [],
+      "progress": 0,
+      "block_reason": null,
+      "last_updated": "2026-03-07T00:00:00"
+    }
+  },
+  "swarm_states": {
+    "evomap_swarm": {
+      "swarm_id": "evomap_swarm",
+      "swarm_type": "monetization",
+      "status": "idle",
+      "current_task": null,
+      "task_queue_length": 0,
+      "last_heartbeat": "2026-03-07T00:00:00",
+      "capabilities": ["bounty_execution", "capsule_validation"],
+      "performance_score": 1.0
+    }
+  },
+  "security_alerts": [],
+  "meeting_minutes": [],
+  "innovation_solutions": []
+}
